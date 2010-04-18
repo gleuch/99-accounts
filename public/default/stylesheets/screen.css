@@ -1,0 +1,32 @@
+body {background: #e0e0e0; font-family: Helvetica, Arial, Verdana, sans-serif; color: #444;}
+div {clear: both; display: block;}
+h1 {clear: both; display: block; padding: 0 0 18px 0; margin: 0; font-size: 32px; line-height: 36px; letter-spacing: -.03em; color: #222; font-weight: bold; text-align: center;}
+h3 {clear: both; display: block; padding: 0 0 20px 0; margin: 0; font-size: 20px; line-height: 22px; letter-spacing: -.03em; color: #666; font-weight: bold; text-align: center;}
+.verse h3 {padding: 0 0 8px 0;}
+.verse {padding: 0 0 12px 0;}
+p {clear: both; display: block; padding: 0 0 8px 0; margin: 0; font-size: 20px; line-height: 24px; letter-spacing: -.03em; color: #666;}
+p a {color: #ba0200; text-decoration: none; font-weight: bold;}
+p a:hover {color: #000; text-decoration: underline; font-weight: bold;}
+p.small {font-size: 15px; line-height: 18px; text-align: center;}
+
+p.button {text-align: center; padding: 4px 0 32px 0; font-size: 32px; font-weight: bold;}
+p.button a.button {display: inline-block; padding: 14px 32px 12px 32px; margin: 0 3px; background: #ba0200; color: #fff; text-decoration: none;} /*border: 3px solid #ba0200; border-radius: 12px; -moz-border-radius: 12px; -webkit-border-radius: 12px;}*/
+p.button a.button:hover {background: #000000; border-color: #000000;}
+
+
+#container {width: 725px; margin: 0 auto; padding: 42px 0 24px 0;}
+
+#content_area {padding: 8px 0 0 0; background: url(../images/ya-boy.png) right 23px no-repeat; min-height: 150px;}
+#content_bubble {position: relative; width: 423px; background: #fff; border: 2px solid #dadada; border-top: none; border-bottom: 3px solid #ccc; border-radius: 12px; -moz-border-radius: 12px; -webkit-border-radius: 12px;}
+#content {position: relative; width: 383px; padding: 24px 24px;}
+
+.results_box {padding: 16px 0 0 0; margin: 6px 0 0 0; border-top: 1px solid #e0e0e0;}
+
+
+#donation_box {padding: 40px 0 0 0; text-align: center;}
+
+
+#footer {padding: 60px 0 30px 0; text-align: center; font-size: 15px; letter-spacing: -.02em;}
+#footer a.bold {font-weight: bold;}
+#footer a {color: #ba0200; text-decoration: underline;}
+#footer a:hover {color: #000000; text-decoration: none;}

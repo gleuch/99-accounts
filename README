@@ -1,0 +1,42 @@
+h1. 99 Acounts
+
+I've got 99 accounts but your tweets ain't one... HIT ME!
+
+
+h2. About
+
+TEXT GOES HERE
+
+
+h4. Credits
+
+99 Accounts by Greg Leuch <http://www.gleuch.com>
+Released as a Free Art & Technoloy Lab (F.A.T. Lab) project <http://www.fffff.at>
+Copyfree 2010. http://99accounts.gleuch.com
+
+Source Code: http://github.com/gleuch/99-accounts
+
+
+
+h2. Usage
+
+h4. License
+
+You may use this program if you agree to the following:
+
+* You are a non-commercial entity focused on using this for good-natured purposes only.
+* You must leave the header comment and footer credit intact.
+
+
+h4. Installation
+
+* Clone this repo (git clone git://github.com/gleuch/99-accounts.git) into a web-accessible directory.
+* Rename settings.yml.default to settings.yml
+** Change settings as needed. Be sure to add your Twitter OAuth key and secret strings.
+* Run!
+
+
+h4. Notes 
+
+* With DataMapper > 0.10.0, you may get a NoMethodError on 'find_by_sql'. To fix, install the dm-ar-finders gem.
+* Based on the Retweet Game code by Greg Leuch <http://github.com/gleuch/retweet-game>

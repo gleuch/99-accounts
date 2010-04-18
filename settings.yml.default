@@ -1,0 +1,29 @@
+development: &local
+  site_name:        99 Accounts
+  group_name:       Greg Leuch
+  group_website:    http://www.gleuch.com
+
+  template_name:          default
+
+  twitter_oauth_token:    ENTER-YOUR-TOKEN-HERE
+  twitter_oauth_secret:   ENTER-YOUR-TOKEN-SECRET-HERE
+
+  twitter_screen_name:    99accounts
+  twitter_sync_tweet:     "I've got @99accounts but your tweets ain't one. HIT ME! http://99accounts.gleuch.com"
+  twitter_hashtag:        '#99accounts'
+
+  twitter_allow_user_follow:  true
+
+  use_g_analytics:            false
+  g_analytics_code:           UA-#######-##
+
+  db_type:        sqlite
+  db_connection:  sqlite3:///ROOT/99accounts_dev.db
+
+production:
+  <<: *local
+
+  # db_type:          mysql
+  # db_connection:    mysql://root:*****@localhost/99accounts_prod
+  db_type:          sqlite
+  db_connection:    sqlite3:///ROOT/99accounts_prod.db
