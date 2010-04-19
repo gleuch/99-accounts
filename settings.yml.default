@@ -9,7 +9,7 @@ development: &local
   twitter_oauth_secret:   ENTER-YOUR-TOKEN-SECRET-HERE
 
   twitter_screen_name:    99accounts
-  twitter_sync_tweet:     "I've got @99accounts but your tweets ain't one. HIT ME! http://99accounts.gleuch.com"
+  twitter_sync_tweet:     "I've got @99accounts but your tweet ain't one. HIT ME! http://99accounts.gleuch.com"
   twitter_hashtag:        '#99accounts'
 
   twitter_allow_user_follow:  true
