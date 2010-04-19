@@ -9,10 +9,10 @@ p a {color: #ba0200; text-decoration: none; font-weight: bold;}
 p a:hover {color: #000; text-decoration: underline; font-weight: bold;}
 p.small {font-size: 15px; line-height: 18px; text-align: center;}
 
-p.button {text-align: center; padding: 4px 0 32px 0; font-size: 32px; font-weight: bold;}
+p.button {text-align: center; padding: 4px 0 12px 0; font-size: 32px; font-weight: bold;}
 p.button a.button {display: inline-block; padding: 14px 32px 12px 32px; margin: 0 3px; background: #ba0200; color: #fff; text-decoration: none;} /*border: 3px solid #ba0200; border-radius: 12px; -moz-border-radius: 12px; -webkit-border-radius: 12px;}*/
 p.button a.button:hover {background: #000000; border-color: #000000;}
-
+p.explain {font-size: 18px; line-height: 22px; text-align: center; padding: 0 0 22px 0;}
 
 #container {width: 725px; margin: 0 auto; padding: 42px 0 24px 0;}
 

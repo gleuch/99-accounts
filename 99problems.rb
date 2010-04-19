@@ -163,7 +163,7 @@ get '/auth' do
       end
 
       @user = User.first_or_create(:account_id => info['id'])
-      @user.active = true, 
+      @user.active = true
       @user.account_id = info['id']
       @user.screen_name = info['screen_name']
       @user.oauth_token = @access_token.token
